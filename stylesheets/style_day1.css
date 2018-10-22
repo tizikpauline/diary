@@ -1,0 +1,88 @@
+/* день 1 */
+@font-face {
+	font-family: 'FuturaLightC';
+	src: url('FuturaLightC.eot');
+	src: local('Futura Light Cyrillic'), local('FuturaLightC'),
+		url('FuturaLightC.eot?#iefix') format('embedded-opentype'),
+		url('FuturaLightC.woff') format('woff'),
+		url('FuturaLightC.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'FuturaMediumC';
+	src: url('FuturaMediumC.eot');
+	src: local('Futura Medium Cyrillic'), local('FuturaMediumC'),
+		url('FuturaMediumC.eot?#iefix') format('embedded-opentype'),
+		url('FuturaMediumC.woff') format('woff'),
+		url('FuturaMediumC.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+h1{
+position: absolute;
+width: 330px;
+height: 74px;
+margin-left: 73px;
+margin-top: 73px;
+margin-right: 518.57px;
+font-family: "FuturaMediumC", sans-serif;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-size: 64px;
+color: #000000;
+}
+/* (Здесь будет текст) */
+p{
+position: absolute;
+width: 550px;
+left: 69px;
+top: 165px;
+font-family: "FuturaLightC", sans-serif;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+font-size: 25px;
+color: #000000;
+}
+/* крест2 */
+img.close {
+position: absolute;
+width: 50px;
+height: 50px;
+left: 0px;
+top: 0px;
+}
+img.arrow {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin-left: 1210px;
+  margin-top: 545px;
+}
+img.photo {
+position: absolute;
+width: 505.42px;
+height: 335.69px;
+left: 683px;
+top: 165px;
+}
+img.arrow_left{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 0px;
+  margin-top: 545px;
+}
+img.photo_vertical {
+position: absolute;
+height: 505.42px;
+width: 335.69px;
+left: 683px;
+top: 73px;
+}
