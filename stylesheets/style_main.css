@@ -2,7 +2,7 @@ html, body {
   height: 100%;
   width: 100%;
 }
-
+@import 'stylesheet.css';
 @font-face {
 	font-family: 'FuturaLightC';
 	src: url('FuturaLightC.eot');
