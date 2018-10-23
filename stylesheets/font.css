@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "FuturaMediumC";
+	src: url("/fonts/Futura/FuturaMediumC/FuturaMediumC.eot");
+	src: url("/fonts/Futura/FuturaMediumC/FuturaMediumC.eot?#iefix") format("embedded-opentype"),
+			 url("/fonts/Futura/FuturaMediumC/FuturaMediumC.woff") format("woff"),
+			 url("/fonts/Futura/FuturaMediumC/FuturaMediumC.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+  font-family: "FuturaLightC";
+	src: url("/fonts/Futura/FuturaLightC/FuturaLightC.eot");
+	src: url("/fonts/Futura/FuturaLightC/FuturaLightC.eot?#iefix") format("embedded-opentype"),
+			 url("/fonts/Futura/FuturaLightC/FuturaLightC.woff") format("woff"),
+			 url("/fonts/Futura/FuturaLightC/FuturaLightC.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
