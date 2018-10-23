@@ -5,18 +5,18 @@ html, body {
 
 
 h1{
-position: absolute;
-width: 386px;
-height: 80px;
-margin-left: 73px;
-margin-top: 73px;
-margin-right: 518.57px;
-font-family: "FuturaMediumC", sans-serif;
-font-style: normal;
-font-weight: 500;
-line-height: 40px;
-font-size: 60px;
-color: #000000;
+	position: absolute;
+	width: 386px;
+	height: 80px;
+	margin-left: 73px;
+	margin-top: 73px;
+	margin-right: 518.57px;
+	font-family: "FuturaMediumC", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 40px;
+	font-size: 60px;
+	color: #000000;
 }
 
 nav{

@@ -5,18 +5,18 @@ html, body {
 
 
 h1{
-position: absolute;
-width: 386px;
-height: 80px;
-margin-left: 73px;
-margin-top: 73px;
-margin-right: 518.57px;
-font-family: "FuturaMediumC", sans-serif;
-font-style: normal;
-font-weight: 500;
-line-height: 40px;
-font-size: 60px;
-color: #000000;
+	position: absolute;
+	width: 386px;
+	height: 80px;
+	margin-left: 73px;
+	margin-top: 73px;
+	margin-right: 518.57px;
+	font-family: "FuturaMediumC", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 40px;
+	font-size: 60px;
+	color: #000000;
 }
 
 nav{
@@ -54,19 +54,18 @@ a.visited{
 }
 
 div.block1{
-position: absolute;
-
-left: 568.82px;
-top: 221.04px;
-right: 73px;
-font-family: "FuturaLightC", sans-serif;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-font-size: 36px;
-
-color: #000000;
+	position: absolute;
+	left: 568.82px;
+	top: 221.04px;
+	right: 73px;
+	font-family: "FuturaLightC", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	font-size: 36px;
+	color: #000000;
 }
+
 p{
   padding-bottom: 26.08px;
 }

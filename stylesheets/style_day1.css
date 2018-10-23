@@ -3,39 +3,39 @@ html, body {
   width: 100%;
 }
 h1{
-position: absolute;
-width: 330px;
-height: 74px;
-margin-left: 73px;
-margin-top: 73px;
-margin-right: 518.57px;
-font-family: "FuturaMediumC", sans-serif;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-font-size: 64px;
-color: #000000;
+	position: absolute;
+	width: 330px;
+	height: 74px;
+	margin-left: 73px;
+	margin-top: 73px;
+	margin-right: 518.57px;
+	font-family: "FuturaMediumC", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 64px;
+	color: #000000;
 }
 /* (Здесь будет текст) */
 p{
-position: absolute;
-width: 550px;
-left: 69px;
-top: 165px;
-font-family: "FuturaLightC", sans-serif;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-font-size: 25px;
-color: #000000;
+	position: absolute;
+	width: 550px;
+	left: 69px;
+	top: 165px;
+	font-family: "FuturaLightC", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	font-size: 25px;
+	color: #000000;
 }
 /* крест2 */
 img.close {
-position: absolute;
-width: 50px;
-height: 50px;
-left: 0px;
-top: 0px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 0px;
+	top: 0px;
 }
 img.arrow {
   position: absolute;
@@ -45,11 +45,11 @@ img.arrow {
   margin-top: 545px;
 }
 img.photo {
-position: absolute;
-width: 505.42px;
-height: 335.69px;
-left: 683px;
-top: 165px;
+	position: absolute;
+	width: 505.42px;
+	height: 335.69px;
+	left: 683px;
+	top: 165px;
 }
 img.arrow_left{
   position: absolute;
@@ -59,9 +59,9 @@ img.arrow_left{
   margin-top: 545px;
 }
 img.photo_vertical {
-position: absolute;
-height: 505.42px;
-width: 335.69px;
-left: 683px;
-top: 73px;
+	position: absolute;
+	height: 505.42px;
+	width: 335.69px;
+	left: 683px;
+	top: 73px;
 }
