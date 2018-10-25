@@ -74,11 +74,40 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-img.insta{
-	height: 150px;
-	width: 150px;
-	position: absolute;
-	top:600px;
-	margin-left:73px;
-	margin-bottom:27px;
+
+div.sketch{
+  position:relative;
+  margin-top: 200px;
+  margin-left: 73px;
+}
+
+img.sketch{
+  height: 517px;
+  width: 344px;
+  margin-top: 100px;
+  margin-left: 73px;
+}
+.insta{
+  padding-right: 20px;
+	height: 100px;
+	width: 100px;
+
+}
+.insta-icon{
+  padding-right: 20px;
+  height: 50px;
+  width: 50px;
+}
+.facebook-icon{
+  padding-right: 20px;
+  height: 50px;
+  width: 50px;
+}
+.block3{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 10px;
+  margin-bottom:15px;
 }
