@@ -1,15 +1,17 @@
+@import "../stylesheets/reset.css";
+@import "../stylesheets/font.css";
+
 html, body {
   height: 100%;
   width: 100%;
 }
-h1{
+
+h1 {
   position: absolute;
   width: 386px;
   height: 80px;
-  margin-left: 73px;
-  margin-top: 73px;
-  margin-right: 518.57px;
-  font-family: "FuturaMediumC",sans-serif;
+  margin: 73px 519px 0px 73px;
+  font-family: "FuturaMediumC", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 40px;
@@ -17,41 +19,35 @@ h1{
   color: #000000;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: flex-end;
-  left:350px;
-  right:0px;
+  left: 350px;
+  right: 0px;
 }
 
-nav ul{
+nav ul {
   list-style: none;
-  font-family: "FuturaLightC", sans-serif;
+  font-family: "FuturaLightC", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 15px;
   font-size: 24px;
-  margin-right: 5px;
-  margin-top: 127.2px;
-  margin-left: 518.57px;
-  margin-bottom: 0px;
+  margin: 127px 5px 0px 519px;
 }
 
-nav li{
+nav li {
   display: inline-block;
   padding-left: 0px;
-  padding-right: 4.01px;
+  padding-right: 4px;
   color: black;
   text-decoration: none;
 }
 
-
-
-h2.class1{
+.class-1 {
   padding-top: 210px;
-  padding-left: 0px;
   margin-left: -5px;
-  font-family: "FuturaLightC", sans-serif;
+  font-family: "FuturaLightC", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 23px;
@@ -60,37 +56,11 @@ h2.class1{
   color: black;
 }
 
-h2.class2{
-  padding-top: 210px;
-  padding-left: 0px;
-  margin-left: -5px;
-  font-family: "FuturaLightC", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 23px;
-  font-size: 36px;
-  text-decoration-line: underline;
-  color: black;
-}
-
-h2.class3{
-  padding-top: 210px;
-  padding-left: 0px;
-  margin-left: -5px;
-  font-family: "FuturaLightC", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 23px;
-  font-size: 36px;
-  text-decoration-line: underline;
-  color: black;
-}
-
-h2.class_vertical{
+.class-vertical {
   padding-top: 343px;
   padding-left: 0px;
   margin-left: -5px;
-  font-family: "FuturaLightC", sans-serif;
+  font-family: "FuturaLightC", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 23px;
@@ -106,34 +76,27 @@ h2.class_vertical{
 }
 
 #grid {
-  grid-template-columns: 400px 400px 400px;  /* columns */
-  grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px; /* rows  */
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px;
 }
 
-.grid-item-1 {
+.grid-item-1,.grid-item-2,.grid-item-3,.grid-item-4,.grid-item-5,.grid-item-7,.grid-item-8,.grid-item-11,.grid-item-12,.grid-item-13,.grid-item-14 {
   padding: .2em;
   width: 402px;
   height: 267px;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%);
-  filter: gray;
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s;
+}
+
+.grid-item-6, .grid-item-9, .grid-item-10 {
+  padding: .2em;
+  height: 402px;
+  width: 267px;
+}
+
+.grid-item-1 {
   background-image: url(../images/mukhina.jpg);
   background-size: 402px 267px;
   background-repeat: no-repeat;
   position: relative;
-}
-
-.grid-item-2 {
-  padding: .2em;
-  width: 402px;
-  height: 267px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -144,16 +107,13 @@ h2.class_vertical{
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
+}
+
+.grid-item-2 {
   background-image: url(../images/polaroid.jpg);
   background-size: 402px 267px;
   background-repeat: no-repeat;
   position: relative;
-}
-
-.grid-item-3 {
-  padding: .2em;
-  width: 402px;
-  height: 267px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -164,16 +124,13 @@ h2.class_vertical{
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
+}
+
+.grid-item-3 {
   background-image: url(../images/graf.jpg);
   background-size: 402px 267px;
   background-repeat: no-repeat;
   position: relative;
-}
-
-.grid-item-4 {
-  padding: .2em;
-  width: 402px;
-  height: 267px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -184,15 +141,13 @@ h2.class_vertical{
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
+}
+
+.grid-item-4 {
   background-image: url(../images/turgenev.jpg);
   background-size: 402px 267px;
   background-repeat: no-repeat;
   position: relative;
-}
-.grid-item-5 {
-  padding: .2em;
-  width: 402px;
-  height: 267px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -203,16 +158,13 @@ h2.class_vertical{
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
+}
+
+.grid-item-5 {
   background-image: url(../images/matches1.jpg);
   background-size: 402px 267px;
   background-repeat: no-repeat;
   position: relative;
-}
-
-.grid-item-6 {
-  padding: .2em;
-  height: 402px;
-  width: 267px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -223,16 +175,13 @@ h2.class_vertical{
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
+}
+
+.grid-item-6 {
   background-image: url(../images/flag.jpg);
   background-size: 267px 402px;
   background-repeat: no-repeat;
   position: relative;
-}
-
-.grid-item-7 {
-  padding: .2em;
-  width: 402px;
-  height: 267px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -243,16 +192,13 @@ h2.class_vertical{
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
+}
+
+.grid-item-7 {
   background-image: url(../images/bicycle.jpg);
   background-size: 402px 267px;
   background-repeat: no-repeat;
   position: relative;
-}
-
-.grid-item-8 {
-  padding: .2em;
-  width: 402px;
-  height: 267px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -263,16 +209,13 @@ h2.class_vertical{
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
+}
+
+.grid-item-8 {
   background-image: url(../images/fonts.jpg);
   background-size: 402px 267px;
   background-repeat: no-repeat;
   position: relative;
-}
-
-.grid-item-9 {
-  padding: .2em;
-  width: 267px;
-  height: 402px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -283,16 +226,13 @@ h2.class_vertical{
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
+}
+
+.grid-item-9 {
   background-image: url(../images/leaf.jpg);
   background-size: 267px 402px;
   background-repeat: no-repeat;
   position: relative;
-}
-
-.grid-item-10 {
-  padding: .2em;
-  width: 267px;
-  height: 402px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -303,16 +243,13 @@ h2.class_vertical{
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
+}
+
+.grid-item-10 {
   background-image: url(../images/bublik.jpg);
   background-size: 267px 402px;
   background-repeat: no-repeat;
   position: relative;
-}
-
-.grid-item-11 {
-  padding: .2em;
-  width: 402px;
-  height: 267px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -323,16 +260,13 @@ h2.class_vertical{
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
+}
+
+.grid-item-11 {
   background-image: url(../images/bee.jpg);
   background-size: 402px 267px;
   background-repeat: no-repeat;
   position: relative;
-}
-
-.grid-item-12 {
-  padding: .2em;
-  width: 402px;
-  height: 267px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -343,16 +277,13 @@ h2.class_vertical{
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
+}
+
+.grid-item-12 {
   background-image: url(../images/glasses1.jpg);
   background-size: 402px 267px;
   background-repeat: no-repeat;
   position: relative;
-}
-
-.grid-item-13 {
-  padding: .2em;
-  width: 402px;
-  height: 267px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -363,16 +294,13 @@ h2.class_vertical{
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
+}
+
+.grid-item-13 {
   background-image: url(../images/disk.jpg);
   background-size: 402px 267px;
   background-repeat: no-repeat;
   position: relative;
-}
-
-.grid-item-14{
-  padding: .2em;
-  width: 402px;
-  height: 267px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -383,174 +311,51 @@ h2.class_vertical{
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
+}
+
+.grid-item-14 {
   background-image: url(../images/pumpkin.jpg);
   background-size: 402px 267px;
   background-repeat: no-repeat;
   position: relative;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
 
-a{
+.grid-item-1:hover, .grid-item-2:hover, .grid-item-3:hover, .grid-item-4:hover, .grid-item-5:hover, .grid-item-6:hover, .grid-item-7:hover, .grid-item-8:hover, .grid-item-9:hover, .grid-item-10:hover, .grid-item-11:hover, .grid-item-12:hover, .grid-item-13:hover, .grid-item-14:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none;
+}
+
+a, .visited {
   color: black;
   text-decoration: none;
 }
 
-a.class1{
+.type-1 {
   position: absolute;
   top: 0;
   bottom: 0;
   width: 100%;
-  color: black;
-  text-decoration: none;
-}
-a.class2{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  color: black;
-  text-decoration: none;
 }
 
-a.visited{
-  color: black;
-  text-decoration: none;
-}
-
-.grid-item-1:hover{
-  -webkit-filter: none;
-  -moz-filter: none;
-  -ms-filter: none;
-  -o-filter: none;
-  filter: none;
-  filter: none;
-}
-
-
-.grid-item-2:hover{
-  -webkit-filter: none;
-  -moz-filter: none;
-  -ms-filter: none;
-  -o-filter: none;
-  filter: none;
-  filter: none;
-}
-
-
-.grid-item-3:hover{
-  -webkit-filter: none;
-  -moz-filter: none;
-  -ms-filter: none;
-  -o-filter: none;
-  filter: none;
-  filter: none;
-}
-
-.grid-item-3:hover{
-  -webkit-filter: none;
-  -moz-filter: none;
-  -ms-filter: none;
-  -o-filter: none;
-  filter: none;
-  filter: none;
-}
-
-.grid-item-4:hover{
-  -webkit-filter: none;
-  -moz-filter: none;
-  -ms-filter: none;
-  -o-filter: none;
-  filter: none;
-  filter: none;
-}
-
-.grid-item-5:hover{
-  -webkit-filter: none;
-  -moz-filter: none;
-  -ms-filter: none;
-  -o-filter: none;
-  filter: none;
-  filter: none;
-}
-.grid-item-6:hover{
-  -webkit-filter: none;
-  -moz-filter: none;
-  -ms-filter: none;
-  -o-filter: none;
-  filter: none;
-  filter: none;
-}
-.grid-item-7:hover{
-  -webkit-filter: none;
-  -moz-filter: none;
-  -ms-filter: none;
-  -o-filter: none;
-  filter: none;
-  filter: none;
-}
-.grid-item-8:hover{
-  -webkit-filter: none;
-  -moz-filter: none;
-  -ms-filter: none;
-  -o-filter: none;
-  filter: none;
-  filter: none;
-}
-
-.grid-item-9:hover{
-  -webkit-filter: none;
-  -moz-filter: none;
-  -ms-filter: none;
-  -o-filter: none;
-  filter: none;
-  filter: none;
-}
-
-.grid-item-10:hover{
-  -webkit-filter: none;
-  -moz-filter: none;
-  -ms-filter: none;
-  -o-filter: none;
-  filter: none;
-  filter: none;
-}
-.grid-item-11:hover{
-  -webkit-filter: none;
-  -moz-filter: none;
-  -ms-filter: none;
-  -o-filter: none;
-  filter: none;
-  filter: none;
-}
-.grid-item-12:hover{
-  -webkit-filter: none;
-  -moz-filter: none;
-  -ms-filter: none;
-  -o-filter: none;
-  filter: none;
-  filter: none;
-}
-.grid-item-13:hover{
-  -webkit-filter: none;
-  -moz-filter: none;
-  -ms-filter: none;
-  -o-filter: none;
-  filter: none;
-  filter: none;
-}
-.grid-item-14:hover{
-  -webkit-filter: none;
-  -moz-filter: none;
-  -ms-filter: none;
-  -o-filter: none;
-  filter: none;
-  filter: none;
+.white-markup {
+  background-color: white;
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.WhiteMarkup {
-  background-color: white;
 }
