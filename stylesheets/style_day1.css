@@ -15,7 +15,7 @@ h1 {
 	color: #000000;
 }
 
-content {
+main {
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -30,7 +30,7 @@ content {
   height: 336px;
 }
 
-.photo_vertical {
+.photo-vertical {
   margin-top: -100px;
 	height: 505px;
 	width: 336px;
@@ -60,7 +60,7 @@ p {
   height: 60px;
 }
 
-.arrow_left {
+.arrow-left {
   float:left;
   width: 60px;
   height: 60px;
