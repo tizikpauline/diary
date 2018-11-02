@@ -21,8 +21,8 @@ h1 {
 }
 
 nav {
-  display: inline-block;
-  float: right;
+  display: flex;
+  justify-content: flex-end;
   left: 350px;
   right: 0px;
 }
