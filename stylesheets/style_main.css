@@ -1,5 +1,6 @@
 @import "../stylesheets/reset.css";
 @import "../stylesheets/font.css";
+@import "../stylesheets/responsive.css";
 
 html, body {
   height: 100%;
